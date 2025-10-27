@@ -1,0 +1,5 @@
+# pixi environments
+.pixi/*
+!.pixi/config.toml
+dist/2025_10_packaging_workshop-0.1.0.tar.gz
+dist/2025_10_packaging_workshop-0.1.0-py3-none-any.whl
