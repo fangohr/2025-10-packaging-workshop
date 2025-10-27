@@ -658,7 +658,7 @@ packages:
 - pypi: ./
   name: packworkshop202510
   version: 0.1.0
-  sha256: 788e862f3153e31708c3856ea52ae2107b23418f2a25a35154060fee9cb226f5
+  sha256: 7f006a27b3ef7ab3461afe5835b8fcfa97adbc9da6ee1a0ccbb617e4fb2836fb
   requires_dist:
   - requests>=2.32.5,<3
   - build>=1.3.0,<2

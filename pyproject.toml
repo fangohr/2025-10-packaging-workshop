@@ -18,3 +18,5 @@ packworkshop202510 = { path = ".", editable = true }
 
 [tool.pixi.tasks]
 start = "python -c 'from packworkshop202510 import happy; happy.hello()'"
+build = "python -m build"
+upload = "pixi run twine upload --repository testpypi dist/*"
