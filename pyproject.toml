@@ -1,7 +1,7 @@
 [project]
 authors = [{name = "Hans Fangohr", email = "fangohr@users.noreply.github.com"}]
 dependencies = ["requests>=2.32.5,<3", "build>=1.3.0,<2", "twine>=6.2.0,<7"]
-name = "2025-10-packaging-workshop"
+name = "packworkshop202510"
 requires-python = ">= 3.11"
 version = "0.1.0"
 
@@ -11,10 +11,10 @@ requires = ["hatchling"]
 
 [tool.pixi.workspace]
 channels = ["conda-forge"]
-platforms = ["linux-64"]
+platforms = ["linux-64", "osx-64"]
 
 [tool.pixi.pypi-dependencies]
-2025_10_packaging_workshop = { path = ".", editable = true }
+packworkshop202510 = { path = ".", editable = true }
 
 [tool.pixi.tasks]
-start = "python -c 'from 2025_10_packaging_workshop import happy; happy.hello()'"
+start = "python -c 'from packworkshop202510 import happy; happy.hello()'"
